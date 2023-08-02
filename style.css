@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+
+}
+:root{
+	--darkred:#8B0000;
+	--firebrick:#B22222;
+	--ghostWhite:#F8F8FF;
+	--mediumBlue:#0000CD;
+	--snowWhite:#FFFAFA;
+}
+
+#container{
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+#container header{
+	width: 100%;
+	background: var(--darkred);
+	margin: 0 auto;
+}
+
+#header{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 15px;
+
+}
+#header p{
+	max-width: 800px;
+	margin: 0 auto;
+	color: whitesmoke;
+	font-weight: 700;
+}
+#header a {
+	max-width: 800px;
+	margin: auto;
+	color: whitesmoke;
+}
+#header span{
+	max-width: 800px;
+	margin: auto;
+	color: whitesmoke;
+	font-size: 0.7rem;
+}
+
+#menu{
+	width: 100%;
+	background: var(--firebrick);
+	margin: 0 auto;
+}
+#main-menu{
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px;
+}
+#main-menu li{
+	list-style: none;
+	padding: 10px;
+	color:whitesmoke;
+}
+#main-menu li a{
+	list-style: none;
+	padding-left: 20px;
+	color:whitesmoke;
+}
+
+#content-wrapper{
+	max-width: 800px;
+	margin:0 auto;
+	background: var(--ghostWhite);
+	border: 1px solid var(--ghostWhite);
+}
+
+#contents, #main, #sidebar, .pager,.post, .widget, .cleaner{
+/*	border: 1px solid red;*/
+	margin: 10px;
+
+}
+#sidebar{
+	background: var(--ghostWhite);
+}
+
+#contents{
+	display: grid;
+	grid-template-columns: 550px 1fr;
+
+}
+.post{
+	font-size: 0.9rem;
+	margin-bottom: 15px;
+	background: var(--snowWhite);
+	border-radius: 5px;
+	padding: 6px;
+}
+.post p {
+
+	margin-top: 15px;
+
+}
+.post-info, .more{
+	color:var(--mediumBlue);
+	font-size: 0.7rem;
+	margin: 3px;
+}
+.more a{
+	color: var(--mediumBlue);
+}
+
+.widget{
+	font-size: 0.8rem;
+	background: var(--snowWhite);
+	border-radius: 15px;
+}
+.widget p{
+	margin-top: 5px;
+}
+
+#footer-wrapper{
+	background:var(--darkred) ;
+	width: 100%;
+	padding: 15px;
+}
+.pager{
+	text-align: center;
+}
+#footer-wrapper #footer{
+	background: whitesmoke;
+	width: 800px;
+	margin: 0 auto;
+	color: var(--snowWhite);
+	background: var(--darkred);
+	font-size: 0.7rem;
+
+}
