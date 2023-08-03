@@ -1,10 +1,16 @@
+<?php
+include 'settings.php';
+include 'cms/functions.php';
+include 'inc/header.php';
+
+?>
 <div id="content-wrapper">
 
 	<div id="contents">
 				
 		<div id="main">
 					
-			<?php include 'inc/posts.php'; ?>
+			<?php show_content(); ?>
 			<?php  include 'inc/pager.php';?>
 
 		</div>
@@ -21,7 +27,7 @@
 			
 </div>
 <!-- ---------------- fim #content-wrapper ---------------- -->
-
+<?php include 'inc/footer.php';?>
 
 
 
