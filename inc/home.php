@@ -1,29 +1,27 @@
+<div id="content-wrapper">
 
-
-		<div id="content-wrapper">
-
-			<div id="contents">
+	<div id="contents">
 				
-				<div id="main">
+		<div id="main">
 					
-				<?php include 'inc/posts.php'; ?>
-				<?php  include 'inc/pager.php';?>
+			<?php include 'inc/posts.php'; ?>
+			<?php  include 'inc/pager.php';?>
 
-				</div>
-				<!-- ------------------------------ fim da main --------------------------- -->
+		</div>
+		<!-- ------------------------------ fim da main --------------------------- -->
 				
-				<?php include 'inc/sidebar.php'; ?>
+			<?php include 'inc/sidebar.php'; ?>
 
 
-				<div class="cleaner"></div>
-				<!-- ------------------------------------ fim cleaner ------------------------- -->
+		<div class="cleaner"></div>
+		<!-- ------------------------------------ fim cleaner ------------------------- -->
 
-			</div>
+	</div>
 			<!-- ---------------------------fim  #content ---------------------- -->
 			
-		</div>
-		<!-- ---------------- fim #content-wrapper ---------------- -->
-		
+</div>
+<!-- ---------------- fim #content-wrapper ---------------- -->
+
 
 
 
